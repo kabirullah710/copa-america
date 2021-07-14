@@ -1,0 +1,81 @@
+.first{
+    display: flex;
+    background-color:royalblue;
+   
+}
+
+.pen{
+    display: none;
+    
+}
+.first:hover .pen{
+    display: block;
+   
+}
+.copa{
+    width: 50%;
+    margin-left: 10%;
+    font-size: xx-large;
+    margin-top: 5%;
+    color: snow;
+}
+.copa img{
+    width: 500px;
+}
+.link-button{
+    color:white;
+    text-decoration: none;
+    background-color: rgb(158, 39, 78);
+    padding: 7px 20px;
+    border-radius:7px ;
+    font-weight:700;
+    font-size: large;
+    
+}
+span{
+    color: yellow;
+}
+
+.second{
+   
+    margin-top: 5%;
+    
+}
+.photo-album{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:20%;
+    margin-right: 15%;
+}
+.photo-frame{
+    width: 250px;
+    height: 370px;
+    border: 10px solid whitesmoke;
+    margin: 2%;
+    border-radius: 2%;
+    
+   
+}
+.photo img{
+   width: 250px;
+}
+.photo-detail{
+    font-size: small;
+}
+.third{
+    display:flex;
+}
+.highlight{
+
+    width: 50%;
+    margin-left: 22%;
+    margin-top: 15%;
+    
+}
+.highlight img{
+    width: 350px;
+    margin-right: 40%;
+}
+.football{
+    justify-content: center;
+}
